@@ -1,0 +1,129 @@
+:root {
+    --fs-100: clamp(0.64rem, calc(0.61rem + 0.14vw), 0.72rem);
+    --fs-200: clamp(0.80rem, calc(0.77rem + 0.17vw), 0.90rem);
+    --fs-300: clamp(1.00rem, calc(0.96rem + 0.22vw), 1.13rem);
+    --fs-400: clamp(1.25rem, calc(1.20rem + 0.27vw), 1.41rem);
+    --fs-500: clamp(1.56rem, calc(1.49rem + 0.34vw), 1.76rem);
+    --fs-600: clamp(1.95rem, calc(1.87rem + 0.42vw), 2.20rem);
+    --fs-700: clamp(2.44rem, calc(2.33rem + 0.53vw), 2.75rem);
+    --fs-800: clamp(3.05rem, calc(2.92rem + 0.66vw), 3.43rem);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary);
+    font-family: "Oswald", "Roboto", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+p, a, span {
+    color: var(--primary-alt);
+    font-family: "Oswald", "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.90rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.15rem; }
+h6 { font-size: 1rem; }
+p, span { font-size: 1.15rem; }
+
+.head-w, .subhead-w { color: var(--primary); }
+.suptext-w, .p-w { color: var(--primary-alt); }
+
+.head-b, .subhead-b { color: var(--black); }
+.suptext-b, .p-b { color: var(--black-alt); }
+
+.head-w, .head-b {
+    font-size: var(--fs-800);  
+    margin: 0.5rem 0;
+    line-height: 5rem;
+}
+
+.subhead-w, .subhead-b {
+    font-size: var(--fs-600);
+    margin: 0.5rem 0;
+}
+
+.suptext-w, .suptext-b {
+    font-size: var(--fs-300);
+    font-weight: 300;
+    margin: 0.5rem 0;
+}
+
+.p-w, .p-b {
+    font-size: var(--fs-400);
+    text-align: left;
+    margin: 0.5rem 0;
+}
+
+/* Text alignment */
+.t-center { text-align: center; }
+.t-left { text-align: left; }
+.t-right { text-align: right; }
+.t-just { text-align: justify; }
+
+.red {
+    color: var(--secondary);
+}
+.white {
+    color: var(--primary);
+}
+.black {
+    color: var(--black);
+}
+
+/* @media only screen and (max-width: 1200px) {
+    .head-w, .head-b {
+        font-size: 3.1rem;
+    }
+    
+    .subhead-w, .subhead-b {
+        font-size: 2.1rem;
+    }
+    
+    .suptext-w, .suptext-b {
+        font-size: 1.15rem;
+    }
+    
+    .p-w, .p-b {
+        font-size: 1.15rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .head-w, .head-b {
+        font-size: 3rem;
+    }
+    
+    .subhead-w, .subhead-b {
+        font-size: 1.75rem;
+    }
+
+    .suptext-w, .suptext-b {
+        font-size: 1.25rem;
+    }
+
+    .p-w, .p-b {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .head-w, .head-b {
+        font-size: 2.5rem;
+    }
+    
+    .subhead-w, .subhead-b {
+        font-size: 1.25rem;
+    }
+    
+    .suptext-w, .suptext-b {
+        font-size: 0.9rem;
+    }
+    
+    .p-w, .p-b {
+        font-size: 0.9rem;
+    }
+} */
