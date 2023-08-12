@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your reliable partner in logistics and bulk cargo handling services.">
+    <meta name="keywords" content="Machtig Logistics, Machtig, Logistics, Cargo, Cargo Handling, Service, Reliable">
+
+    <!-- CSS & Icons -->
+    <link rel="stylesheet" type="text/css" href="css/text.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" as="font">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="images/machtig_logo.png">
+    <title>Machtig Logistics</title>
+</head>
+
+<body>
+<!-- Navbar start -->
+<nav id="nav">
+    <div class="nav__wrapper">
+        <a href="index.html#">
+            <img class="nav__logo" src="images/machtig_logo.png" alt="Machtig Logistics">
+        </a>
+        <div class="nav__contacts">
+            <div><i  class="bi bi-telephone-fill"></i> (02)-8256-7345 <i class="bi bi-dot"></i> 8286-0700</div>
+            <div><i class="bi bi-envelope-fill"></i> sales@machtiglogistics.ph</div>
+        </div>
+        <div class="nav__menu" onclick="toggleMenu()">
+            <i class="bi bi-list"></i>
+        </div>
+    </div>
+
+    <div class="nav__wrapper-1">
+        <a class="nav__links" href="index.html">HOME</a>
+        <a class="nav__links nav__links--selected" href="services.html">SERVICES</a>
+        <a class="nav__links" href="gallery.html">Gallery</a>
+        <a class="nav__links" href="contact-us.html">CONTACT US</a>
+        <a class="nav__links" href="about-us.html">ABOUT US</a>
+    </div>
+</nav>
+<!-- Navbar end -->
+
+<main>
+    <!-- BANNER -->
+    <div class="banner">
+        <div class="banner__wrapper">
+            <div class="banner__slides">
+                <div class="banner__img first">
+                    <img src="images/mlpi_service-banner.jpg">
+                </div>
+            </div>
+            <div class="banner__text">
+                <h1>WHAT WE OFFER</h1>
+            </div>
+        </div>
+    </div>
+    <!-- BANNER -->
+
+    <section class="container" style="color: var(--primary); background-color: #510513; padding: 0;">
+        <h1></h1>
+        <div id="air-sea" class="card-1 blob">
+            <div class="card-1-wrapper-img">
+                <img class="fade-right gallery-img" src="images/mlpi_air-sea.jpg">
+            </div>
+            <div class="card-1-wrapper fade-left">
+                <div class="card-1-text">
+                    <h1 class="subhead-w t-left">Air/Sea Freight Forwarding</h1>
+                    <p class="p-w">Air/sea freight forwarding is the process of organizing and planning the transport of freight from one point to another by air/ship. We  arrange the movement of your cargo to its final destination point.</p>
+                </div>
+            </div>
+        </div>
+        <div id="domestic" class="card-1 blob1">
+            <div class="card-1-wrapper-img">
+                <img class="fade-left gallery-img" src="images/mlpi_domestic.jpg">
+            </div>
+            <div class="card-1-wrapper fade-right">
+                <div class="card-1-text">
+                    <h1 class="subhead-w t-left">Domestic Freight Forwarding</h1>
+                    <p class="p-w">Domestic freight forwarding arranges for freight shipments to destinations within the Philippines.</p>
+                </div>
+            </div>
+        </div>
+        <div id="pack-and-crate" class="card-1 blob">
+            <div class="card-1-wrapper-img">
+                <img class="fade-right gallery-img" src="images/mlpi_pack-and-crate.jpg">
+            </div>
+            <div class="card-1-wrapper fade-left">
+                <div class="card-1-text">
+                    <h1 class="subhead-w t-left">Packing and Crating</h1>
+                    <p class="p-w">We will arrange for your freight to be professionally crated and packed to withstand the vigour of moving. That means it will be properly blocked and banded, with weight evenly distributed, so that it will not move or shift during transport.</p>
+                </div>
+            </div>
+        </div>
+        <div id="track-and-haul" class="card-1 blob1">
+            <div class="card-1-wrapper-img">
+                <img class="fade-left gallery-img" src="images/mlpi_track-and-haul.jpg">
+            </div>
+            <div class="card-1-wrapper fade-right">
+                <div class="card-1-text">
+                    <h1 class="subhead-w t-left">Trucking and Hauling Services</h1>
+                    <p class="p-w"> Transport goods from point A to point B by truck.</p>
+                </div>
+            </div>
+        </div>
+        <div id="arrastre-and-stevedoring" class="card-1 blob">
+            <div class="card-1-wrapper-img">
+                <img class="fade-right gallery-img" src="images/mlpi_arrastre-and-stevedoring.jpg">
+            </div>
+            <div class="card-1-wrapper fade-left">
+                <div class="card-1-text">
+                    <h1 class="subhead-w t-left">Arrastre and Stevedoring Services</h1>
+                    <p class="p-w">Arrastre means all work performed (on dock.) It is the process of receiving and loading cargoes from and on to ship’s tackle, providing mechanical equipment for receiving, stowing, transporting, shifting, sorting and piling of cargoes for temporary storage within the port area.
+                              <br>  <br>Stevedoring means all work performed (on board vessel.) It is the process of loading and unloading cargoes, stowing hatches, compartments and on deck or open cargo space on board vessel. (The services related to stevedoring are re-rigging ship’s gear.)
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="customs" class="card-1 blob1">
+            <div class="card-1-wrapper-img">
+                <img class="fade-left gallery-img" src="images/mlpi_customs.jpg">
+            </div>
+            <div class="card-1-wrapper fade-right">
+                <div class="card-1-text">
+                    <h1 class="subhead-w t-left">Customs Brokerage</h1>
+                    <p class="p-w">We provide expert service by arranging the customs clearance process for you during a shipment. We ensure that a shipment meets all standards and regulations for the import or export of goods.</p>
+                </div>
+            </div>
+        </div>
+        <div id="nvocc" class="card-1 blob">
+            <div class="card-1-wrapper-img">
+                <img class="fade-right gallery-img" src="images/mlpi_nvocc.jpg">
+            </div>
+            <div class="card-1-wrapper fade-left">
+                <div class="card-1-text">
+                    <h1 class="subhead-w t-left">NVOCC</h1>
+                    <p class="p-w">Non-Vessel Operating Common Carriers (NVOCC) does not own or operate ocean transport vessels. Instead, they make arrangements with ship owners, charterers, or shipping lines for transportation of cargo</p>
+                </div>
+            </div>
+        </div>
+        <div id="consolidation" class="card-1 blob1">
+            <div class="card-1-wrapper-img">
+                <img class="fade-left gallery-img" src="images/mlpi_consolidation.jpg">
+            </div>
+            <div class="card-1-wrapper fade-right">
+                <div class="card-1-text">
+                    <h1 class="subhead-w t-left">Consolidation</h1>
+                    <p class="p-w">Consolidation is the process where a carrier or a shipping company combines several smaller shipments into one full container.
+
+                        Ideally, consolidation favours both the carrier and the shipper. In the case of the carrier, it helps to reduce the cost of shipment and to make delivery of goods quicker. And for the shipper with smaller shipment, he would not need to pay for a full container shipment.</p>
+                </div>
+            </div>
+        </div>
+        <div id="door-to-door" class="card-1 blob">
+            <div class="card-1-wrapper-img">
+                <img class="fade-right gallery-img" src="images/mlpi_door-to-door.jpg">
+            </div>
+            <div class="card-1-wrapper fade-left">
+                <div class="card-1-text">
+                    <h1 class="subhead-w t-left">Door to Door Services</h1>
+                    <p class="p-w">A door-to-door (D2D) shipping delivery service is a type of shipping service that delivers items directly to the recipient’s door. This type of shipping is often used for large or heavy items that cannot be quickly shipped through traditional shipping methods. Door-to-door shipping is a convenient way to receive items, as the recipient does not have to go to a shipping location to pick up the items.</p>
+                </div>
+            </div>
+        </div>
+        <div id="break-bulk" class="card-1 blob1">
+            <div class="card-1-wrapper-img">
+                <img class="fade-left gallery-img" src="images/mlpi_break-bulk.jpg">
+            </div>
+            <div class="card-1-wrapper fade-right">
+                <div class="card-1-text">
+                    <h1 class="subhead-w t-left">Break Bulk Services</h1>
+                    <p class="p-w">Break bulk is the system of transporting goods in pieces separately, rather than being shipped in a container. Goods shipped in crates, bags, boxes, drums, barrels without the use of container are referred to as break bulk cargoes. These type of cargoes are usually large in sizes and dimensions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Modal -->
+    <div id="img-modal" class="modal" >
+        <div class="img-wrapper">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <!-- <div id="caption"></div> -->
+        </div>
+    </div>
+</main>
+
+<!-- Footer start -->
+<footer>
+    <div class="footer-card">
+        <div class="footer-links">
+            <h3>CONTACT US</h3>
+            <p><i class="bi bi-telephone-fill"></i> (63) 9997336540 <br><i class="bi bi-dot"></i>(02) 8256-7345 <br><i class="bi bi-dot"></i>(02) 8286-0700</p>
+            <p><i class="bi bi-envelope-fill"></i> sales@machtiglogistics.ph</p>
+            <h3>SOCIAL MEDIA</h3>
+            <div class="socmed">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <h3>SERVICES</h3>
+            <a href="services.html#air-sea"><i class="bi bi-arrow-right-short"></i>Air/Sea Freight Forwarding </a>
+            <a href="services.html#domestic"><i class="bi bi-arrow-right-short"></i>Domestic Freight Forwarding</a>
+            <a href="services.html#pack-and-crate"><i class="bi bi-arrow-right-short"></i>Packing & Crating</a>
+            <a href="services.html#track-and-haul"><i class="bi bi-arrow-right-short"></i>Tracking & Hauling Services</a>
+            <a href="services.html#arrastre-and-stevedoring"><i class="bi bi-arrow-right-short"></i>Arrastre and Stevedoring Services</a>
+        </div>
+        <div class="footer-links">
+            <a href="services.html#customs"><i class="bi bi-arrow-right-short"></i>Customs Brokerage</a>
+            <a href="services.html#nvocc"><i class="bi bi-arrow-right-short"></i>NVOCC</a>
+            <a href="services.html#consolidation"><i class="bi bi-arrow-right-short"></i>Consolidation</a>
+            <a href="services.html#door-to-door"><i class="bi bi-arrow-right-short"></i>Door to Door Services</a>
+            <a href="services.html#break-bulk"><i class="bi bi-arrow-right-short"></i>Break Bulk Services</a>
+        </div>
+        <div class="footer-links">
+            <h3>GALLERY</h3>
+            <a href="gallery.html"><i class="bi bi-arrow-right-short"></i>Our photo gallery</a>
+        </div>
+        <div class="footer-links">
+            <h3>ABOUT US</h3>
+            <a href="about-us.html#values"><i class="bi bi-arrow-right-short"></i>Core values</a>
+            <a href="about-us.html#mission"><i class="bi bi-arrow-right-short"></i>Mission</a>
+            <a href="about-us.html#vision"><i class="bi bi-arrow-right-short"></i>Vision</a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&COPY; 2023 MACHTIG LOGISTICS PHILS., INC. ALL RIGHTS RESERVED. </p>
+    </div>
+</footer>
+<!-- Footer end -->
+
+</body>
+<!-- Scripts -->
+<script>
+    // Get the modal
+    var modal = document.getElementById("img-modal");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    //var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<script>
+    $(document).ready(function() {
+        $(".gallery-img").click(function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        });
+    })
+</script>
+
+<script src="scripts/img-slider.js"></script>
+<script src="scripts/compactNavbar.js"></script>
+
+</html>
